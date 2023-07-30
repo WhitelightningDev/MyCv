@@ -398,14 +398,10 @@
   }
 }
 /* Small Screen Styles */
-@media screen and (max-width: 400px) {
-  .main-container {
-    width: auto;
-  }
+@media screen and (min-width: 400px) {
   .main-container .intro-h1 {
     font-size: 50px;
     top: 30px;
-    right: 100px;
   }
   .main-container .intro-p {
     font-size: 15px;
