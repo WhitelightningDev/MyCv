@@ -386,14 +386,19 @@
   top: 40px;
 }
 
-/* Large Screen Styles (Default) */
-/* Add styles for large screens here if needed */
 /* Medium Screen Styles */
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  /* Add styles for medium screens here */
+@media screen and (max-width: 400px) and (max-width: 700px) {
+  .main-container .intro-h1 {
+    top: 30px;
+    font-size: 20px;
+  }
+  .main-container .intro-pic {
+    left: 750px;
+    top: 170px;
+  }
 }
 /* Small Screen Styles */
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 400px) {
   .main-container {
     width: auto;
   }
@@ -425,16 +430,54 @@
   }
 }
 /* Extra Large Screen Styles */
-@media screen and (min-width: 1200px) {
-  .intro-website,
-  .intro-port,
-  .intro-aboutme,
-  .intro-contact {
-    /* Add your desired width, height, and font-size values for extra-large screens here */
-    font-size: 25px;
-  }
+@media screen and (min-width: 1300px) {
   .main-container .intro-aboutme {
-    position: relative;
+    width: 260px;
+    right: 20px;
   }
-  /* Add any other styles specific to extra-large screens here */
+  .main-container .intro-contact {
+    width: 260px;
+    right: 660px;
+  }
+  .main-container .intro-website {
+    width: 260px;
+  }
+  .main-container .intro-pic {
+    top: 200px;
+    height: 220px;
+    left: 1450px;
+  }
+  .main-container .intro-port {
+    width: 260px;
+    left: 240px;
+  }
+  .main-container .intro-port-txt {
+    font-size: 50px;
+  }
+  .main-container .intro-h1 {
+    font-size: 90px;
+    top: 20px;
+  }
+  .intro-p {
+    font-size: 30px;
+    top: 40px;
+  }
+  .bio-container .bio-div-1 {
+    width: 600px;
+    left: 280px;
+  }
+  .bio-container .bio-div-2 {
+    width: 600px;
+    left: 1100px;
+  }
+  .bio-container .bio-p {
+    font-size: 17px;
+  }
+  .bio-container .bio-2-p {
+    font-size: 17px;
+  }
+  .bio-container .bio-para {
+    font-size: 50px;
+    left: 285px;
+  }
 }/*# sourceMappingURL=styles.css.map */
