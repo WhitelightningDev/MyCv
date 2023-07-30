@@ -457,10 +457,46 @@
   }
   
   /* Small Screen Styles */
-  @media screen and (max-width: 400px) {
+  @media screen and (min-width: 400px) {
     .main-container{
         width: auto;
     }
+
+    .main-container .intro-h1{
+        font-size: 50px;
+        top: 30px;
+        right: 100px;
+    }
+
+    .main-container .intro-p{
+        font-size: 15px;
+        top: 90px;
+    }
+
+    .main-container .intro-website{
+        font-size: 10px;
+        width: 100px;
+    }
+
+    .main-container .intro-aboutme{
+        font-size: 10px;
+        width: 100px;
+        right: 70px;
+    }
+
+    .main-container .intro-port{
+        font-size: 10px;
+        width: 100px;
+    }
+
+    .main-container .intro-contact{
+        width: 100px;
+        right: 10px;
+    }
+
+
+
+
 }
   
   /* Extra Large Screen Styles */
