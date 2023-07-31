@@ -258,8 +258,7 @@
   top: 200px;
   left: 230px;
   width: 800px;
-  width: 50%;
-  height: 50%;
+  height: 200px;
   background-color: rgb(246, 246, 224);
   border-radius: 15px;
 }
