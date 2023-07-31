@@ -138,6 +138,55 @@
   left: 110px;
 }
 
+.crafters-main-screen {
+  position: relative;
+  top: 90px;
+  left: 100px;
+  width: 50%;
+  border-radius: 15px;
+}
+
+.crafters-bio {
+  color: beige;
+  text-align: center;
+  bottom: 250px;
+  border-radius: 25px;
+  position: relative;
+  left: 800px;
+  width: 30%;
+  height: 300px;
+  background-color: rgba(23, 38, 39, 0.7764705882);
+}
+
+.craftersbio-text {
+  position: relative;
+  padding: 10px;
+  width: 100%;
+}
+
+.craftershop {
+  position: relative;
+  width: 50%;
+  left: 100px;
+  border-radius: 25px;
+}
+
+.leathershop-image {
+  width: 50%;
+  position: relative;
+  left: 100px;
+  top: 90px;
+  border-radius: 25px;
+}
+
+.crafters-information {
+  position: relative;
+  top: 440px;
+  left: 130px;
+  color: beige;
+  font-size: 40px;
+}
+
 /******* Animations *****/
 .intro-website:hover {
   width: 220px;
@@ -161,6 +210,11 @@
   width: 220px;
   height: 60px;
   font-size: 25px;
+}
+
+.crafters-main-screen:hover {
+  width: 55%;
+  border-radius: 25px;
 }
 
 .footer-contact {
@@ -370,13 +424,13 @@
   position: relative;
   top: 700px;
   right: 119px;
-  height: 500px;
+  width: 70%;
   border-radius: 15px;
 }
 
 .crafters-main {
   width: 100%;
-  height: 1000px;
+  height: 1900px;
   background-color: #20CD8D;
 }
 .crafters-main .crafters-h1 {
