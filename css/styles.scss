@@ -456,14 +456,58 @@
 
     .main-container .intro-h1{
         top: 30px;
-        font-size: 100px;
+        font-size: 50px;
     }
 
     .main-container .intro-pic{
-        left: 750px;
+        left: 620px;
         top: 170px;
     }
 
+
+    .bio-container .bio-div-1{
+        left: 20px;
+        text-align: center;
+        width: 370px;
+        height: 360px;
+    }
+
+    .bio-container .bio-p{
+        font-size: 14px;
+    }
+
+    .bio-container .bio-div-2{
+        left: 450px;
+        text-align: center;
+        width: 350px;
+        height: 360px;
+        bottom: 140px;
+    }
+
+    .footer-contact .footer-num{
+        width: 120px;
+        font-size: 12px;
+    }
+
+    .footer-contact .footer-add{
+        left: 50px;
+        font-size: 12px;
+    }
+
+    .footer-contact .footer-email{
+        left: 50px;
+        width: 200px;
+    }
+
+    .footer-contact .footer-web{
+        left: 50px;
+        width: 120px;
+    }
+
+    .footer-contact{
+        background: auto;
+    }
+    
 }
   
   /* Small Screen Styles */
@@ -506,10 +550,10 @@
         left: 170px;
     }
 
-    // .main-container .intro-contact{
-    //     width: 100px;
-    //     right: 40px;
-    // }
+    .main-container .intro-contact{
+        width: 100px;
+        right: 40px;
+    }
 
    .bio-container{
     height: 1500px;
@@ -559,11 +603,45 @@
     background: 900px;
 }
 
+
+
 }
 
 
 @media screen and (min-width: 1025px) and (max-width: 1200px){
 
+    .main-container .intro-p{
+        font-size: 12px;
+    }
+
+    .main-container .intro-h1{
+        font-size: 50px;
+    }
+
+    .bio-container .bio-div-1{
+        width: 430px;
+        left: 30px;
+    }
+
+    .bio-container .bio-div-2{
+        width: 430px;
+        left: 570px;
+    }
+
+    .footer-contact .footer-add{
+        left: 50px;
+    }
+
+    .footer-contact .footer-email{
+        left: 60px;
+    }
+
+    .footer-contact .footer-web{
+        left: 90px;
+        width: 130px;
+    }
+
+   
 }
 
 
@@ -596,6 +674,8 @@
         width: 260px;
         left: 240px;
     }
+
+ 
 
 
     .main-container .intro-port-txt{
