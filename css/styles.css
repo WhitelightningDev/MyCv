@@ -399,31 +399,79 @@
   }
 }
 /* Small Screen Styles */
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
+  .main-container {
+    width: 100%;
+  }
+  .main-container .intro-port-txt {
+    left: 50px;
+  }
   .main-container .intro-h1 {
     font-size: 50px;
-    top: 30px;
+    top: 10px;
+    left: 50px;
   }
   .main-container .intro-p {
     font-size: 15px;
     top: 90px;
+    left: 50px;
   }
   .main-container .intro-website {
     font-size: 10px;
     width: 100px;
+    left: 50px;
   }
   .main-container .intro-aboutme {
     font-size: 10px;
     width: 100px;
-    right: 70px;
+    right: 160px;
   }
   .main-container .intro-port {
     font-size: 10px;
     width: 100px;
+    left: 100px;
   }
   .main-container .intro-contact {
     width: 100px;
+    right: 110px;
+  }
+  .bio-container {
+    height: 1500px;
+    background: fixed;
+    background-size: contain;
+  }
+  .bio-container .bio-div-1 {
     right: 10px;
+    width: 300px;
+    height: 460px;
+  }
+  .bio-container .bio-div-2 {
+    width: 300px;
+    height: 420px;
+    top: 400px;
+    left: 100px;
+  }
+  .footer-contact .footer-h1 {
+    font-size: 60px;
+  }
+  .footer-contact .footer-num {
+    left: 160px;
+    top: 190px;
+  }
+  .footer-contact .footer-add {
+    top: 250px;
+    left: -80px;
+  }
+  .footer-contact .footer-email {
+    left: 120px;
+    top: 290px;
+  }
+  .footer-contact .footer-web {
+    left: 120px;
+    top: 320px;
+  }
+  .footer-contact {
+    background: 900px;
   }
 }
 /* Extra Large Screen Styles */
