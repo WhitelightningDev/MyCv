@@ -399,7 +399,7 @@
   }
 }
 /* Small Screen Styles */
-@media screen and (min-width: 300px) and (max-width: 500px) {
+@media screen and (min-width: 200px) and (max-width: 500px) {
   .main-container .intro-port-txt {
     left: 110px;
     font-size: 30px;
