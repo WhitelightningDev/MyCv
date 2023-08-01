@@ -4,11 +4,13 @@
 }
 
 
+/************** Main container styles on the First page*****************/
 .main-container {
     height: 900px;
     width: 100%;
     background-color: #172627;
 
+    //Portfolio text
     .intro-port-txt {
         color: beige;
         font-family: 'Montserrat', sans-serif;
@@ -17,6 +19,7 @@
         left: 140px;
     }
 
+    //Picture that sits on the right side of the main page
     .intro-pic {
         position: relative;
         left: 900px;
@@ -26,6 +29,7 @@
 
     }
 
+    //Main page text with the user portfolio name
     .intro-h1 {
         position: relative;
         color: beige;
@@ -35,6 +39,7 @@
         font-size: 60px;
     }
 
+    // Main page subheading text
     .intro-p {
         position: relative;
         font-family: 'Montserrat', sans-serif;
@@ -43,6 +48,7 @@
         top: 120px;
     }
 
+    // Main page website button
     .intro-website {
         position: relative;
         width: 200px;
@@ -57,6 +63,7 @@
         color: #12E1B9;
     }
 
+    //Main page portfolio button
     .intro-port {
         position: relative;
         width: 200px;
@@ -71,6 +78,7 @@
         color: #12E1B9;
     }
 
+    //Main page About me button 
     .intro-aboutme {
         position: relative;
         top: 250px;
@@ -85,6 +93,7 @@
         border-bottom: .5px solid #12E1B9;
     }
 
+    //Main page contact button
     .intro-contact {
         position: relative;
         top: 250px;
@@ -100,10 +109,12 @@
     }
 }
 
+//Bio contaoner that holds two divs and text that explains the portfolio
 .bio-container {
     width: 100%;
     height: 700px;
 
+    //Div one container
     .bio-div-1 {
         position: relative;
         top: 220px;
@@ -114,6 +125,7 @@
         border-radius: 15px;
     }
 
+    // Div 1 text
     .bio-p {
         font-family: 'Montserrat', sans-serif;
         font-weight: 50;
@@ -124,6 +136,7 @@
         font-size: 15px;
     }
 
+    //Div 2 text 
     .bio-div-2 {
         position: relative;
         bottom: 80px;
@@ -134,6 +147,7 @@
         border-radius: 15px;
     }
 
+    //Div 2 text
     .bio-2-p {
         position: relative;
         font-family: 'Montserrat', sans-serif;
@@ -152,59 +166,6 @@
         left: 110px;
     }
 }
-
-//Crafters Boutique styles and elements
-
-
-.crafters-main-screen{
-    position: relative;
-    top: 90px;
-    left: 100px;
-    width: 50%;
-    border-radius: 15px;
-}
-
-.crafters-bio{
-    color: beige;
-    text-align: center;
-    bottom: 250px;
-    border-radius: 25px;
-    position: relative;
-    left: 800px;
-    width: 30%;
-    height: 300px;
-    background-color: #172627c6;
-}
-
-.craftersbio-text{
-position: relative;
-padding: 10px;
-width: 100%;
-}
-
-.craftershop{
-    position: relative;
-    width: 50%;
-    left: 100px;
-    border-radius: 25px;
-}
-
-.leathershop-image{
-    width: 50%;
-    position: relative;
-    left: 100px;
-    top: 90px;
-    border-radius: 25px;
-}
-
-.crafters-information{
-    position: relative;
-    top: 440px;
-    left: 130px;
-    color: beige;
-    font-size: 40px;
-}
-
 
 /******* Animations *****/
 
@@ -238,15 +199,16 @@ width: 100%;
     border-radius: 25px;
 }
 
+// End of animations
 
 
 
-
-
+//Main page footer for the contact address email and website links
 .footer-contact {
     width: 100%;
     height: 700px;
 
+    //Styles for the number link  button
     .footer-num {
         width: 200px;
         height: 30px;
@@ -259,6 +221,7 @@ width: 100%;
         border-radius: 15px;
     }
 
+    //Styles for the address link  button
     .footer-add {
         width: 280px;
         height: 30px;
@@ -271,7 +234,7 @@ width: 100%;
         border-radius: 15px;
     }
 
-
+    //Styles for the email Address link  button
     .footer-email {
         top: 500px;
         left: 90px;
@@ -284,6 +247,7 @@ width: 100%;
         position: relative;
     }
 
+    //Styles for the website link  button
     .footer-web {
         top: 500px;
         left: 100px;
@@ -296,6 +260,7 @@ width: 100%;
         position: relative;
     }
 
+    //footer style for the contact information heading
     .footer-h1 {
         font-family: 'Montserrat', sans-serif;
         position: relative;
@@ -303,16 +268,15 @@ width: 100%;
         font-size: 50px;
         left: 100px;
     }
-
-
 }
 
-
+//Portfolio header holding the back button that redirects to the main page
 .header-nav {
     width: 100%;
     height: 70px;
     background-color: #172627;
 
+    //Back home button text
     .back-home {
         position: relative;
         top: 15px;
@@ -325,177 +289,10 @@ width: 100%;
         border: 1px solid #12E1B9;
     }
 
+    //back home arrow 
     .back-button {
         position: relative;
         right: 30px;
-    }
-}
-
-
-.port-intro {
-    width: 100%;
-    height: 700px;
-    background-color: #12E1B9;
-
-    .port-h1 {
-        color: #f5f5dc;
-        position: relative;
-        text-align: center;
-        top: 100px;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 60px;
-    }
-
-    .port-info {
-        position: relative;
-        top: 200px;
-        left: 230px;
-        width: 800px;
-        height: 200px; 
-        background-color: rgb(246, 246, 224);
-        border-radius: 15px;
-    }
-
-    .port-text {
-        padding: 10px;
-        position: relative;
-        top: 40px;
-        text-align: center;
-    }
-
-    .port-stars {
-        top: 300px;
-        left: 190px;
-        position: relative;
-        height: 50px;
-    }
-
-    .port-stars-2 {
-        position: relative;
-        left: 600px;
-        top: 100px;
-        height: 50px;
-    }
-
-    .port-stars-3 {
-        position: relative;
-        height: 50px;
-        left: 1000px;
-        top: 400px;
-    }
-
-}
-
-.jet-ski {
-    background-color: #CCF4E5;
-    height: 2500px;
-    width: 100%;
-
-
-    .jetski-h1 {
-        font-size: 60px;
-        color: #20CD8D;
-        position: relative;
-        left: 360px;
-        bottom: 240px;
-    }
-
-    .jetski-info-1 {
-        position: relative;
-        height: 130px;
-        width: 700px;
-        background-color: #1de4bc66;
-        border-radius: 15px;
-        left: 280px;
-        bottom: 200px;
-        padding: 10px;
-    }
-
-    .jet-info-p {
-        top: 10px;
-        position: relative;
-        padding: 10px;
-        text-align: center;
-        color: #172627;
-        font-size: 15px;
-    }
-
-    .jetski-image {
-        position: relative;
-        border-radius: 15px;
-        height: 350px;
-        left: 590px;
-        top: 450px;
-    }
-
-    .jetski-mobile {
-        position: relative;
-        height: 350px;
-        top: 445px;
-        right: 500px;
-        border-radius: 15px;
-    }
-
-    .jetski-p-2-div {
-        position: relative;
-        background-color: #1de4bc66;
-        height: 130px;
-        width: 600px;
-        top: 490px;
-        border-radius: 15px;
-        left: 40px;
-    }
-
-    .jetski-p-2 {
-        position: relative;
-        text-align: center;
-        top: 10px;
-        padding: 10px;
-    }
-
-    .jetski-cat {
-        position: relative;
-        height: 500px;
-        right: 120px;
-        top: 560px;
-        border-radius: 15px;
-    }
-
-    .jetski-booking {
-        border-radius: 15px;
-        padding: 10px;
-        position: relative;
-        width: 600px;
-        height: 100px;
-        background-color: #1de4bc66;
-        color: #172627;
-        text-align: center;
-        font-size: 15px;
-        top: 650px;
-        left: 40px;
-    }
-
-    .rentals-img {
-        position: relative;
-        top: 700px;
-        right: 119px;
-        width: 70%;
-        border-radius: 15px;
-    }
-}
-
-
-.crafters-main {
-    width: 100%;
-    height: 1900px;
-    background-color: #20CD8D;
-
-
-    .crafters-h1 {
-        text-align: center;
-        color: beige;
-        position: relative;
-        top: 40px;
     }
 }
 
