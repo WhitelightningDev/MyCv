@@ -60,6 +60,16 @@ html {
   color: beige;
   margin: 10px;
 }
+.div-1 .div-1-h1 {
+  justify-self: center;
+  width: auto;
+  text-align: center;
+}
+.div-1 .div-1-para {
+  width: auto;
+  justify-content: center;
+  text-align: center;
+}
 
 .div-2 {
   width: 100%;
@@ -70,7 +80,13 @@ html {
   background-color: #02C37E;
   color: beige;
 }
+.div-2 .div-2-h1 {
+  justify-content: center;
+  text-align: center;
+  width: auto;
+}
 .div-2 .div-2-para {
+  width: auto;
   text-align: center;
   justify-content: center;
 }
