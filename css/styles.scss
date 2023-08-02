@@ -4,569 +4,180 @@
 }
 
 
-/************** Main container styles on the First page*****************/
-.main-container {
-    height: 900px;
-    width: 100%;
-    background-color: #172627;
-
-    //Portfolio text
-    .intro-port-txt {
-        color: beige;
-        font-family: 'Montserrat', sans-serif;
-        position: relative;
-        top: 100px;
-        left: 140px;
-    }
-
-    //Picture that sits on the right side of the main page
-    .intro-pic {
-        position: relative;
-        left: 900px;
-        top: 255px;
-        border-radius: 15px;
-        height: 170px;
-
-    }
-
-    //Main page text with the user portfolio name
-    .intro-h1 {
-        position: relative;
-        color: beige;
-        left: 130px;
-        top: 100px;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 60px;
-    }
-
-    // Main page subheading text
-    .intro-p {
-        position: relative;
-        font-family: 'Montserrat', sans-serif;
-        color: white;
-        left: 135px;
-        top: 120px;
-    }
-
-    // Main page website button
-    .intro-website {
-        position: relative;
-        width: 200px;
-        height: 40px;
-        left: 135px;
-        top: 150px;
-        background-color: transparent;
-        border-top: 2px solid #12E1B9;
-        border-left: .5px solid #12E1B9;
-        border-right: .5px solid #12E1B9;
-        border-bottom: .5px solid #12E1B9;
-        color: #12E1B9;
-    }
-
-    //Main page portfolio button
-    .intro-port {
-        position: relative;
-        width: 200px;
-        height: 40px;
-        left: 200px;
-        top: 150px;
-        background-color: transparent;
-        border-top: 2px solid #12E1B9;
-        border-left: .5px solid #12E1B9;
-        border-right: .5px solid #12E1B9;
-        border-bottom: .5px solid #12E1B9;
-        color: #12E1B9;
-    }
-
-    //Main page About me button 
-    .intro-aboutme {
-        position: relative;
-        top: 250px;
-        right: 5px;
-        width: 200px;
-        height: 40px;
-        color: #12E1B9;
-        background-color: transparent;
-        border-top: 2px solid #12E1B9;
-        border-left: .5px solid #12E1B9;
-        border-right: .5px solid #12E1B9;
-        border-bottom: .5px solid #12E1B9;
-    }
-
-    //Main page contact button
-    .intro-contact {
-        position: relative;
-        top: 250px;
-        right: 480px;
-        width: 200px;
-        height: 40px;
-        color: #12E1B9;
-        background-color: transparent;
-        border-top: 2px solid #12E1B9;
-        border-left: .5px solid #12E1B9;
-        border-right: .5px solid #12E1B9;
-        border-bottom: .5px solid #12E1B9;
-    }
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-//Bio contaoner that holds two divs and text that explains the portfolio
-.bio-container {
-    width: 100%;
-    height: 700px;
 
-    //Div one container
-    .bio-div-1 {
-        position: relative;
-        top: 220px;
-        left: 100px;
-        width: 500px;
-        height: 300px;
-        background-color: rgb(240, 239, 239);
-        border-radius: 15px;
-    }
+// Primary Colors
+$primary: #20CD8D;
+$primary-light-green: #02C37E;
 
-    // Div 1 text
-    .bio-p {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 50;
-        position: relative;
-        padding: 20px;
-        top: 20px;
+
+// Background Colors
+$body-bg: #172627;
+$content-bg: beige;
+
+
+// font colors
+$main-text: beige;
+$secondary-text-color: #02C37E;
+$tertiary-text: white;
+
+
+
+//Index main container 
+.top-container {
+    width: auto;
+    height: 500px;
+    background-color: $body-bg;
+
+    .container-h1 {
         text-align: center;
-        font-size: 15px;
-    }
-
-    //Div 2 text 
-    .bio-div-2 {
         position: relative;
-        bottom: 80px;
-        left: 700px;
-        width: 500px;
-        height: 300px;
-        background-color: rgb(240, 239, 239);
-        border-radius: 15px;
-    }
-
-    //Div 2 text
-    .bio-2-p {
-        position: relative;
+        font-size: 64px;
+        width: auto;
+        top: 130px;
+        color: $secondary-text-color;
         font-family: 'Montserrat', sans-serif;
-        padding: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+.container-p {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    border-left: 1px solid $primary;
+
+
+    p {
+        font-size: 18.2px;
         text-align: center;
-        top: 20px;
-        font-size: 15px;
-    }
-
-    .bio-para {
         font-family: 'Montserrat', sans-serif;
-        font-weight: 100;
-        font-size: 30px;
-        position: relative;
-        top: 100px;
-        left: 110px;
+        font-family: 'Roboto', sans-serif;
+        color: $tertiary-text;
     }
 }
 
-/******* Animations *****/
-
-.intro-website:hover {
-    width: 220px;
-    height: 60px;
-    font-size: 25px;
-}
-
-.intro-port:hover {
-    width: 220px;
-    height: 60px;
-    font-size: 25px;
+// Info Container
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 
-.intro-aboutme:hover {
-    width: 220px;
-    height: 60px;
-    font-size: 25px;
-}
+// Div styles
 
-.intro-contact:hover {
-    width: 220px;
-    height: 60px;
-    font-size: 25px;
-}
-
-.crafters-main-screen:hover{
-    width: 55%;
+.div-1 {
+    width: 50%;
+    padding: 10px;
     border-radius: 25px;
+    border: 1px solid $body-bg;
+    background-color: $primary-light-green;
+    color: $main-text;
+    margin: 10px;
 }
 
-// End of animations
+.div-2 {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid $body-bg;
+    border-radius: 25px;
+    margin: 10px;
+    background-color: $primary-light-green;
+    color: $main-text;
+
+    .div-2-para {
+        text-align: center;
+        justify-content: center;
+
+    }
+}
 
 
 
-//Main page footer for the contact address email and website links
+// Footer styles 
 .footer-contact {
-    width: 100%;
+    width: auto;
     height: 700px;
+    background-repeat: space;
+    background-size: cover;
 
-    //Styles for the number link  button
-    .footer-num {
-        width: 200px;
-        height: 30px;
-        position: relative;
-        top: 500px;
-        left: 50px;
-        color: beige;
-        border: 2px solid #12E1B9;
-        background-color: #172627;
-        border-radius: 15px;
-    }
 
-    //Styles for the address link  button
-    .footer-add {
-        width: 280px;
-        height: 30px;
-        position: relative;
-        top: 500px;
-        left: 70px;
-        color: beige;
-        border: 2px solid #12E1B9;
-        background-color: #172627;
-        border-radius: 15px;
-    }
-
-    //Styles for the email Address link  button
-    .footer-email {
-        top: 500px;
-        left: 90px;
-        color: beige;
-        border: 2px solid #12E1B9;
-        background-color: #172627;
-        border-radius: 15px;
-        width: 280px;
-        height: 30px;
-        position: relative;
-    }
-
-    //Styles for the website link  button
-    .footer-web {
-        top: 500px;
-        left: 100px;
-        color: black;
-        border: 2px solid #12E1B9;
-        background-color: white;
-        border-radius: 15px;
-        width: 280px;
-        height: 30px;
-        position: relative;
-    }
-
-    //footer style for the contact information heading
+    //footer  text heading 
     .footer-h1 {
-        font-family: 'Montserrat', sans-serif;
-        position: relative;
-        top: 160px;
-        font-size: 50px;
-        left: 100px;
-    }
-}
-
-//Portfolio header holding the back button that redirects to the main page
-.header-nav {
-    width: 100%;
-    height: 70px;
-    background-color: #172627;
-
-    //Back home button text
-    .back-home {
-        position: relative;
-        top: 15px;
         left: 20px;
-        color: beige;
-        width: 200px;
-        height: 40px;
-        border-radius: 15px;
-        background-color: #172627;
-        border: 1px solid #12E1B9;
-    }
-
-    //back home arrow 
-    .back-button {
-        position: relative;
-        right: 30px;
-    }
-}
-
-
-
-
-
-
-
-/* Medium Screen Styles */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-
-    .main-container .intro-h1{
-        top: 30px;
-        font-size: 50px;
-    }
-
-    .main-container .intro-pic{
-        left: 620px;
-        top: 170px;
-    }
-
-
-    .bio-container .bio-div-1{
-        left: 20px;
-        text-align: center;
-        width: 370px;
-        height: 360px;
-    }
-
-    .bio-container .bio-p{
-        font-size: 14px;
-    }
-
-    .bio-container .bio-div-2{
-        left: 450px;
-        text-align: center;
-        width: 350px;
-        height: 360px;
-        bottom: 140px;
-    }
-
-    .footer-contact .footer-num{
-        width: 120px;
-        font-size: 12px;
-    }
-
-    .footer-contact .footer-add{
-        left: 50px;
-        font-size: 12px;
-    }
-
-    .footer-contact .footer-email{
-        left: 50px;
-        width: 200px;
-    }
-
-    .footer-contact .footer-web{
-        left: 50px;
-        width: 120px;
-    }
-
-    .footer-contact{
-        background: auto;
-    }
-
-    
-
-}
-  
-  /* Small Screen Styles */
-  @media screen and (min-width: 200px) and (max-width: 500px) {
-
-
-
-    .main-container .intro-port-txt{
-        left: 100px;
-        font-size: 30px;
-    }
-
-    .main-container .intro-h1{
-        font-size: 50px;
-        top: 10px;
-        left: 90px;
-    }
-
-    .main-container .intro-p{
-        font-size: 15px;
-        top: 60px;
-        left: 90px;
-    }
-
-    .main-container .intro-website{
-        font-size: 10px;
-        width: 100px;
-        left: 90px;
-    }
-
-    .main-container .intro-aboutme{
-        font-size: 10px;
-        width: 100px;
-        right: 120px;
-    }
-
-    .main-container .intro-port{
-        font-size: 10px;
-        width: 100px;
-        left: 170px;
-    }
-
-    .main-container .intro-contact{
-        width: 100px;
-        right: 40px;
-    }
-
-   .bio-container{
-    height: 1500px;
-    background: fixed;
-    background-size: contain;
-   }
-
-
-  .bio-container .bio-div-1{
-    left: 50px;
-    width: 300px;
-    height: 460px;
-   }
-
-   .bio-container .bio-div-2{
-    width: 300px;
-    height: 420px;
-    top: 400px;
-    left: 50px;
-   }
-
-  .footer-contact .footer-h1{
-    font-size: 60px;
-   }
-
-   .footer-contact .footer-num{
-    left: 160px;
-    top: 190px;
-}
-
-.footer-contact .footer-add{
-    top: 250px;
-    left: -80px;
-}
-
-.footer-contact .footer-email{
-    left: 120px;
-    top: 290px;
-}
-
-.footer-contact .footer-web{
-    left: 120px;
-    top: 320px;
-}
-
-.footer-contact {
-    background: 900px;
-}
-
-
-
-}
-
-
-@media screen and (min-width: 1025px) and (max-width: 1200px){
-
-    .main-container .intro-p{
-        font-size: 12px;
-    }
-
-    .main-container .intro-h1{
-        font-size: 50px;
-    }
-
-    .bio-container .bio-div-1{
-        width: 430px;
-        left: 30px;
-    }
-
-    .bio-container .bio-div-2{
-        width: 430px;
-        left: 570px;
-    }
-
-    .footer-contact .footer-add{
-        left: 50px;
-    }
-
-    .footer-contact .footer-email{
-        left: 60px;
-    }
-
-    .footer-contact .footer-web{
-        left: 90px;
-        width: 130px;
-    }
-    
-   
-}
-
-
-  
-  /* Extra Large Screen Styles */
-  @media screen and (min-width: 1300px) {
-
-
-   .main-container .intro-aboutme{
-        width: 260px;
-        right: 20px;
-    }
-
-    .main-container .intro-contact{
-        width: 260px;
-        right: 660px;
-    }
-
-    .main-container .intro-website{
-        width: 260px;
-    }
-
-    .main-container .intro-pic{
-        top: 200px;
-        height: 220px;
-        left: 1450px;
-    }
-
-    .main-container .intro-port{
-        width: 260px;
-        left: 240px;
-    }
-
- 
-
-
-    .main-container .intro-port-txt{
-        font-size: 50px;
-    }
-
-    .main-container .intro-h1{
         font-size: 60px;
-        top: 20px;
+        position: relative;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
     }
 
-    .intro-p{
-        font-size: 30px;
-        top: 40px;
+    .footer-information{
+        left: 20px;
+        position: relative;
+        top: 100px;
+        display: inline-block;
     }
 
-    .bio-container .bio-div-1{
-        width: 600px;
-        left: 280px;
+
+    //Number button styles in the footer
+    .footer-num {
+        font-size: 20px;
+        position: relative;
+        border-radius: 20px;
+        padding: 10px;
+        width: auto;
+        color: $main-text;
+        background-color: $body-bg;
     }
 
-    .bio-container .bio-div-2{
-        width: 600px;
-        left: 1100px;
+
+
+    //Email address styles in the footer 
+    .footer-email {
+        font-size: 20px;
+        position: relative;
+        border-radius: 20px;
+        padding: 10px;
+        width: auto;
+        color: $main-text;
+        background-color: $body-bg;
     }
 
-    .bio-container .bio-p{
-        font-size: 17px;
+
+    //Address styles in the footer
+    .footer-add {
+        font-size: 20px;
+        position: relative;
+        border-radius: 20px;
+        padding: 10px;
+        width: auto;
+        color: $main-text;
+        background-color: $body-bg;
     }
 
-    .bio-container .bio-2-p{
-        font-size: 17px;
+
+    //Website styles in the footer
+    .footer-web {
+        font-size: 20px;
+        position: absolute;
+        border-radius: 20px;
+        padding: 10px;
+        width: auto;
+        color: $main-text;
+        background-color: $body-bg;
     }
 
-    .bio-container .bio-para{
-        font-size: 50px;
-        left: 285px;
-    }
-
-    
-  }
+}

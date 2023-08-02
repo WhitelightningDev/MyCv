@@ -3,638 +3,131 @@
   padding: 0;
 }
 
-.main-container {
-  height: 900px;
-  width: 100%;
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.top-container {
+  width: auto;
+  height: 500px;
   background-color: #172627;
 }
-.main-container .intro-port-txt {
-  color: beige;
+.top-container .container-h1 {
+  text-align: center;
+  position: relative;
+  font-size: 64px;
+  width: auto;
+  top: 130px;
+  color: #02C37E;
   font-family: "Montserrat", sans-serif;
-  position: relative;
-  top: 100px;
-  left: 140px;
+  font-family: "Roboto", sans-serif;
 }
-.main-container .intro-pic {
-  position: relative;
-  left: 900px;
-  top: 255px;
-  border-radius: 15px;
-  height: 170px;
+
+.container-p {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  border-left: 1px solid #20CD8D;
 }
-.main-container .intro-h1 {
-  position: relative;
-  color: beige;
-  left: 130px;
-  top: 100px;
+.container-p p {
+  font-size: 18.2px;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: 60px;
-}
-.main-container .intro-p {
-  position: relative;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: white;
-  left: 135px;
-  top: 120px;
-}
-.main-container .intro-website {
-  position: relative;
-  width: 200px;
-  height: 40px;
-  left: 135px;
-  top: 150px;
-  background-color: transparent;
-  border-top: 2px solid #12E1B9;
-  border-left: 0.5px solid #12E1B9;
-  border-right: 0.5px solid #12E1B9;
-  border-bottom: 0.5px solid #12E1B9;
-  color: #12E1B9;
-}
-.main-container .intro-port {
-  position: relative;
-  width: 200px;
-  height: 40px;
-  left: 200px;
-  top: 150px;
-  background-color: transparent;
-  border-top: 2px solid #12E1B9;
-  border-left: 0.5px solid #12E1B9;
-  border-right: 0.5px solid #12E1B9;
-  border-bottom: 0.5px solid #12E1B9;
-  color: #12E1B9;
-}
-.main-container .intro-aboutme {
-  position: relative;
-  top: 250px;
-  right: 5px;
-  width: 200px;
-  height: 40px;
-  color: #12E1B9;
-  background-color: transparent;
-  border-top: 2px solid #12E1B9;
-  border-left: 0.5px solid #12E1B9;
-  border-right: 0.5px solid #12E1B9;
-  border-bottom: 0.5px solid #12E1B9;
-}
-.main-container .intro-contact {
-  position: relative;
-  top: 250px;
-  right: 480px;
-  width: 200px;
-  height: 40px;
-  color: #12E1B9;
-  background-color: transparent;
-  border-top: 2px solid #12E1B9;
-  border-left: 0.5px solid #12E1B9;
-  border-right: 0.5px solid #12E1B9;
-  border-bottom: 0.5px solid #12E1B9;
 }
 
-.bio-container {
+.info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  height: 100%;
   width: 100%;
-  height: 700px;
-}
-.bio-container .bio-div-1 {
-  position: relative;
-  top: 220px;
-  left: 100px;
-  width: 500px;
-  height: 300px;
-  background-color: rgb(240, 239, 239);
-  border-radius: 15px;
-}
-.bio-container .bio-p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 50;
-  position: relative;
-  padding: 20px;
-  top: 20px;
-  text-align: center;
-  font-size: 15px;
-}
-.bio-container .bio-div-2 {
-  position: relative;
-  bottom: 80px;
-  left: 700px;
-  width: 500px;
-  height: 300px;
-  background-color: rgb(240, 239, 239);
-  border-radius: 15px;
-}
-.bio-container .bio-2-p {
-  position: relative;
-  font-family: "Montserrat", sans-serif;
-  padding: 20px;
-  text-align: center;
-  top: 20px;
-  font-size: 15px;
-}
-.bio-container .bio-para {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 100;
-  font-size: 30px;
-  position: relative;
-  top: 100px;
-  left: 110px;
 }
 
-.crafters-main-screen {
-  position: relative;
-  top: 90px;
-  left: 100px;
+.div-1 {
   width: 50%;
-  border-radius: 15px;
-}
-
-.crafters-bio {
-  color: beige;
-  text-align: center;
-  bottom: 250px;
-  border-radius: 25px;
-  position: relative;
-  left: 800px;
-  width: 30%;
-  height: 300px;
-  background-color: rgba(23, 38, 39, 0.7764705882);
-}
-
-.craftersbio-text {
-  position: relative;
   padding: 10px;
-  width: 100%;
-}
-
-.craftershop {
-  position: relative;
-  width: 50%;
-  left: 100px;
   border-radius: 25px;
-}
-
-.leathershop-image {
-  width: 50%;
-  position: relative;
-  left: 100px;
-  top: 90px;
-  border-radius: 25px;
-}
-
-.crafters-information {
-  position: relative;
-  top: 440px;
-  left: 130px;
+  border: 1px solid #172627;
+  background-color: #02C37E;
   color: beige;
-  font-size: 40px;
+  margin: 10px;
 }
 
-/******* Animations *****/
-.intro-website:hover {
-  width: 220px;
-  height: 60px;
-  font-size: 25px;
-}
-
-.intro-port:hover {
-  width: 220px;
-  height: 60px;
-  font-size: 25px;
-}
-
-.intro-aboutme:hover {
-  width: 220px;
-  height: 60px;
-  font-size: 25px;
-}
-
-.intro-contact:hover {
-  width: 220px;
-  height: 60px;
-  font-size: 25px;
-}
-
-.crafters-main-screen:hover {
-  width: 55%;
+.div-2 {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #172627;
   border-radius: 25px;
+  margin: 10px;
+  background-color: #02C37E;
+  color: beige;
+}
+.div-2 .div-2-para {
+  text-align: center;
+  justify-content: center;
 }
 
 .footer-contact {
-  width: 100%;
+  width: auto;
   height: 700px;
-}
-.footer-contact .footer-num {
-  width: 200px;
-  height: 30px;
-  position: relative;
-  top: 500px;
-  left: 50px;
-  color: beige;
-  border: 2px solid #12E1B9;
-  background-color: #172627;
-  border-radius: 15px;
-}
-.footer-contact .footer-add {
-  width: 280px;
-  height: 30px;
-  position: relative;
-  top: 500px;
-  left: 70px;
-  color: beige;
-  border: 2px solid #12E1B9;
-  background-color: #172627;
-  border-radius: 15px;
-}
-.footer-contact .footer-email {
-  top: 500px;
-  left: 90px;
-  color: beige;
-  border: 2px solid #12E1B9;
-  background-color: #172627;
-  border-radius: 15px;
-  width: 280px;
-  height: 30px;
-  position: relative;
-}
-.footer-contact .footer-web {
-  top: 500px;
-  left: 100px;
-  color: black;
-  border: 2px solid #12E1B9;
-  background-color: white;
-  border-radius: 15px;
-  width: 280px;
-  height: 30px;
-  position: relative;
+  background-repeat: space;
+  background-size: cover;
 }
 .footer-contact .footer-h1 {
-  font-family: "Montserrat", sans-serif;
-  position: relative;
-  top: 160px;
-  font-size: 50px;
-  left: 100px;
-}
-
-.header-nav {
-  width: 100%;
-  height: 70px;
-  background-color: #172627;
-}
-.header-nav .back-home {
-  position: relative;
-  top: 15px;
   left: 20px;
-  color: beige;
-  width: 200px;
-  height: 40px;
-  border-radius: 15px;
-  background-color: #172627;
-  border: 1px solid #12E1B9;
-}
-.header-nav .back-button {
+  font-size: 60px;
   position: relative;
-  right: 30px;
-}
-
-.port-intro {
-  width: 100%;
-  height: 700px;
-  background-color: #12E1B9;
-}
-.port-intro .port-h1 {
-  color: #f5f5dc;
-  position: relative;
-  text-align: center;
-  top: 100px;
   font-family: "Montserrat", sans-serif;
-  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
 }
-.port-intro .port-info {
+.footer-contact .footer-information {
+  left: 20px;
   position: relative;
-  top: 200px;
-  left: 230px;
-  width: 800px;
-  height: 200px;
-  background-color: rgb(246, 246, 224);
-  border-radius: 15px;
-}
-.port-intro .port-text {
-  padding: 10px;
-  position: relative;
-  top: 40px;
-  text-align: center;
-}
-.port-intro .port-stars {
-  top: 300px;
-  left: 190px;
-  position: relative;
-  height: 50px;
-}
-.port-intro .port-stars-2 {
-  position: relative;
-  left: 600px;
   top: 100px;
-  height: 50px;
+  display: inline-block;
 }
-.port-intro .port-stars-3 {
+.footer-contact .footer-num {
+  font-size: 20px;
   position: relative;
-  height: 50px;
-  left: 1000px;
-  top: 400px;
-}
-
-.jet-ski {
-  background-color: #CCF4E5;
-  height: 2500px;
-  width: 100%;
-}
-.jet-ski .jetski-h1 {
-  font-size: 60px;
-  color: #20CD8D;
-  position: relative;
-  left: 360px;
-  bottom: 240px;
-}
-.jet-ski .jetski-info-1 {
-  position: relative;
-  height: 130px;
-  width: 700px;
-  background-color: rgba(29, 228, 188, 0.4);
-  border-radius: 15px;
-  left: 280px;
-  bottom: 200px;
+  border-radius: 20px;
   padding: 10px;
-}
-.jet-ski .jet-info-p {
-  top: 10px;
-  position: relative;
-  padding: 10px;
-  text-align: center;
-  color: #172627;
-  font-size: 15px;
-}
-.jet-ski .jetski-image {
-  position: relative;
-  border-radius: 15px;
-  height: 350px;
-  left: 590px;
-  top: 450px;
-}
-.jet-ski .jetski-mobile {
-  position: relative;
-  height: 350px;
-  top: 445px;
-  right: 500px;
-  border-radius: 15px;
-}
-.jet-ski .jetski-p-2-div {
-  position: relative;
-  background-color: rgba(29, 228, 188, 0.4);
-  height: 130px;
-  width: 600px;
-  top: 490px;
-  border-radius: 15px;
-  left: 40px;
-}
-.jet-ski .jetski-p-2 {
-  position: relative;
-  text-align: center;
-  top: 10px;
-  padding: 10px;
-}
-.jet-ski .jetski-cat {
-  position: relative;
-  height: 500px;
-  right: 120px;
-  top: 560px;
-  border-radius: 15px;
-}
-.jet-ski .jetski-booking {
-  border-radius: 15px;
-  padding: 10px;
-  position: relative;
-  width: 600px;
-  height: 100px;
-  background-color: rgba(29, 228, 188, 0.4);
-  color: #172627;
-  text-align: center;
-  font-size: 15px;
-  top: 650px;
-  left: 40px;
-}
-.jet-ski .rentals-img {
-  position: relative;
-  top: 700px;
-  right: 119px;
-  width: 70%;
-  border-radius: 15px;
-}
-
-.crafters-main {
-  width: 100%;
-  height: 1900px;
-  background-color: #20CD8D;
-}
-.crafters-main .crafters-h1 {
-  text-align: center;
+  width: auto;
   color: beige;
+  background-color: #172627;
+}
+.footer-contact .footer-email {
+  font-size: 20px;
   position: relative;
-  top: 40px;
+  border-radius: 20px;
+  padding: 10px;
+  width: auto;
+  color: beige;
+  background-color: #172627;
 }
-
-/* Medium Screen Styles */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .main-container .intro-h1 {
-    top: 30px;
-    font-size: 50px;
-  }
-  .main-container .intro-pic {
-    left: 620px;
-    top: 170px;
-  }
-  .bio-container .bio-div-1 {
-    left: 20px;
-    text-align: center;
-    width: 370px;
-    height: 360px;
-  }
-  .bio-container .bio-p {
-    font-size: 14px;
-  }
-  .bio-container .bio-div-2 {
-    left: 450px;
-    text-align: center;
-    width: 350px;
-    height: 360px;
-    bottom: 140px;
-  }
-  .footer-contact .footer-num {
-    width: 120px;
-    font-size: 12px;
-  }
-  .footer-contact .footer-add {
-    left: 50px;
-    font-size: 12px;
-  }
-  .footer-contact .footer-email {
-    left: 50px;
-    width: 200px;
-  }
-  .footer-contact .footer-web {
-    left: 50px;
-    width: 120px;
-  }
-  .footer-contact {
-    background: auto;
-  }
+.footer-contact .footer-add {
+  font-size: 20px;
+  position: relative;
+  border-radius: 20px;
+  padding: 10px;
+  width: auto;
+  color: beige;
+  background-color: #172627;
 }
-/* Small Screen Styles */
-@media screen and (min-width: 200px) and (max-width: 500px) {
-  .main-container .intro-port-txt {
-    left: 100px;
-    font-size: 30px;
-  }
-  .main-container .intro-h1 {
-    font-size: 50px;
-    top: 10px;
-    left: 90px;
-  }
-  .main-container .intro-p {
-    font-size: 15px;
-    top: 60px;
-    left: 90px;
-  }
-  .main-container .intro-website {
-    font-size: 10px;
-    width: 100px;
-    left: 90px;
-  }
-  .main-container .intro-aboutme {
-    font-size: 10px;
-    width: 100px;
-    right: 120px;
-  }
-  .main-container .intro-port {
-    font-size: 10px;
-    width: 100px;
-    left: 170px;
-  }
-  .main-container .intro-contact {
-    width: 100px;
-    right: 40px;
-  }
-  .bio-container {
-    height: 1500px;
-    background: fixed;
-    background-size: contain;
-  }
-  .bio-container .bio-div-1 {
-    left: 50px;
-    width: 300px;
-    height: 460px;
-  }
-  .bio-container .bio-div-2 {
-    width: 300px;
-    height: 420px;
-    top: 400px;
-    left: 50px;
-  }
-  .footer-contact .footer-h1 {
-    font-size: 60px;
-  }
-  .footer-contact .footer-num {
-    left: 160px;
-    top: 190px;
-  }
-  .footer-contact .footer-add {
-    top: 250px;
-    left: -80px;
-  }
-  .footer-contact .footer-email {
-    left: 120px;
-    top: 290px;
-  }
-  .footer-contact .footer-web {
-    left: 120px;
-    top: 320px;
-  }
-  .footer-contact {
-    background: 900px;
-  }
-}
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-  .main-container .intro-p {
-    font-size: 12px;
-  }
-  .main-container .intro-h1 {
-    font-size: 50px;
-  }
-  .bio-container .bio-div-1 {
-    width: 430px;
-    left: 30px;
-  }
-  .bio-container .bio-div-2 {
-    width: 430px;
-    left: 570px;
-  }
-  .footer-contact .footer-add {
-    left: 50px;
-  }
-  .footer-contact .footer-email {
-    left: 60px;
-  }
-  .footer-contact .footer-web {
-    left: 90px;
-    width: 130px;
-  }
-}
-/* Extra Large Screen Styles */
-@media screen and (min-width: 1300px) {
-  .main-container .intro-aboutme {
-    width: 260px;
-    right: 20px;
-  }
-  .main-container .intro-contact {
-    width: 260px;
-    right: 660px;
-  }
-  .main-container .intro-website {
-    width: 260px;
-  }
-  .main-container .intro-pic {
-    top: 200px;
-    height: 220px;
-    left: 1450px;
-  }
-  .main-container .intro-port {
-    width: 260px;
-    left: 240px;
-  }
-  .main-container .intro-port-txt {
-    font-size: 50px;
-  }
-  .main-container .intro-h1 {
-    font-size: 60px;
-    top: 20px;
-  }
-  .intro-p {
-    font-size: 30px;
-    top: 40px;
-  }
-  .bio-container .bio-div-1 {
-    width: 600px;
-    left: 280px;
-  }
-  .bio-container .bio-div-2 {
-    width: 600px;
-    left: 1100px;
-  }
-  .bio-container .bio-p {
-    font-size: 17px;
-  }
-  .bio-container .bio-2-p {
-    font-size: 17px;
-  }
-  .bio-container .bio-para {
-    font-size: 50px;
-    left: 285px;
-  }
+.footer-contact .footer-web {
+  font-size: 20px;
+  position: absolute;
+  border-radius: 20px;
+  padding: 10px;
+  width: auto;
+  color: beige;
+  background-color: #172627;
 }/*# sourceMappingURL=styles.css.map */
