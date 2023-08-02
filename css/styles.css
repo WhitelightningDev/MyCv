@@ -48,11 +48,11 @@ html {
   align-items: center;
   background-repeat: no-repeat;
   height: 100%;
-  width: 100%;
+  width: auto;
 }
 
 .div-1 {
-  width: 50%;
+  width: auto;
   padding: 10px;
   border-radius: 25px;
   border: 1px solid #172627;
@@ -62,7 +62,7 @@ html {
 }
 
 .div-2 {
-  width: 50%;
+  width: auto;
   padding: 10px;
   border: 1px solid #172627;
   border-radius: 25px;
@@ -82,6 +82,7 @@ html {
   background-size: cover;
 }
 .footer-contact .footer-h1 {
+  width: auto;
   left: 20px;
   font-size: 60px;
   position: relative;
@@ -91,6 +92,7 @@ html {
 }
 .footer-contact .footer-information {
   left: 20px;
+  width: auto;
   position: relative;
   top: 100px;
   display: inline-block;

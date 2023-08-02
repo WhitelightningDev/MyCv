@@ -72,14 +72,14 @@ $tertiary-text: white;
     align-items: center;
     background-repeat: no-repeat;
     height: 100%;
-    width: 100%;
+    width: auto;
 }
 
 
 // Div styles
 
 .div-1 {
-    width: 50%;
+    width: auto;
     padding: 10px;
     border-radius: 25px;
     border: 1px solid $body-bg;
@@ -89,7 +89,7 @@ $tertiary-text: white;
 }
 
 .div-2 {
-    width: 50%;
+    width: auto;
     padding: 10px;
     border: 1px solid $body-bg;
     border-radius: 25px;
@@ -116,6 +116,7 @@ $tertiary-text: white;
 
     //footer  text heading 
     .footer-h1 {
+        width: auto;
         left: 20px;
         font-size: 60px;
         position: relative;
@@ -126,6 +127,7 @@ $tertiary-text: white;
 
     .footer-information{
         left: 20px;
+        width: auto;
         position: relative;
         top: 100px;
         display: inline-block;
