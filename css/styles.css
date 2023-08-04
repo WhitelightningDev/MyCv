@@ -10,6 +10,62 @@ html {
   padding: 0;
 }
 
+.quick-links {
+  width: auto;
+  height: 75%;
+}
+.quick-links .quick-link-h1 {
+  color: beige;
+  position: relative;
+  top: 20px;
+  width: auto;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.quick-links .resume-link {
+  color: black;
+  text-decoration: none;
+  border: 1px solid beige;
+  padding: 1% 9%;
+  border-radius: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
+  left: 22%;
+  position: relative;
+  top: 20%;
+  background-color: whitesmoke;
+}
+.quick-links .portfolio-link {
+  color: black;
+  text-decoration: none;
+  border: 1px solid beige;
+  padding: 1% 9%;
+  border-radius: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
+  left: 25%;
+  position: relative;
+  top: 20%;
+  background-color: whitesmoke;
+}
+.quick-links .back-button {
+  position: relative;
+  left: 7%;
+  top: 2%;
+  height: 5%;
+  rotate: 180deg;
+}
+.quick-links .contact-link {
+  width: 30%;
+  position: relative;
+  left: 20px;
+  top: 100px;
+}
+
 .top-container {
   width: auto;
   height: 500px;
@@ -24,6 +80,15 @@ html {
   color: #02C37E;
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
+}
+
+.arrow-img {
+  width: auto;
+  height: auto;
+  text-align: center;
+  rotate: 90deg;
+  position: relative;
+  top: 230px;
 }
 
 .container-p {
@@ -51,6 +116,31 @@ html {
   width: 100%;
 }
 
+.back {
+  color: beige;
+  position: relative;
+  right: 10%;
+  width: auto;
+}
+
+.back-home {
+  border-radius: 20px;
+  position: relative;
+  border: 1px solid #20CD8D;
+  left: 5%;
+  top: 25%;
+  padding: 0% 2%;
+  width: auto;
+  background-color: beige;
+}
+
+.header-nav {
+  height: 100px;
+  width: 100%;
+  background-color: #172627;
+  border-bottom: 1px solid beige;
+}
+
 .div-1 {
   width: 100%;
   padding: 10px;
@@ -66,6 +156,7 @@ html {
   text-align: center;
 }
 .div-1 .div-1-para {
+  font-size: 20px;
   width: auto;
   justify-content: center;
   text-align: center;
@@ -86,6 +177,7 @@ html {
   width: auto;
 }
 .div-2 .div-2-para {
+  font-size: 20px;
   width: auto;
   text-align: center;
   justify-content: center;
@@ -110,11 +202,11 @@ html {
   left: 20px;
   width: auto;
   position: relative;
-  top: 100px;
+  top: 450px;
   display: inline-block;
 }
 .footer-contact .footer-num {
-  font-size: 20px;
+  font-size: 15px;
   position: relative;
   border-radius: 20px;
   padding: 10px;
@@ -123,7 +215,7 @@ html {
   background-color: #172627;
 }
 .footer-contact .footer-email {
-  font-size: 20px;
+  font-size: 15px;
   position: relative;
   border-radius: 20px;
   padding: 10px;
@@ -132,7 +224,7 @@ html {
   background-color: #172627;
 }
 .footer-contact .footer-add {
-  font-size: 20px;
+  font-size: 15px;
   position: relative;
   border-radius: 20px;
   padding: 10px;
@@ -141,7 +233,7 @@ html {
   background-color: #172627;
 }
 .footer-contact .footer-web {
-  font-size: 20px;
+  font-size: 15px;
   position: absolute;
   border-radius: 20px;
   padding: 10px;

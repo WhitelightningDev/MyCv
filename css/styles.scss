@@ -3,6 +3,37 @@
     padding: 0;
 }
 
+// Variable overrides first
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
+// Then import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Functions first
+@import "../node_modules/bootstrap/scss/functions";
+
+// Variable overrides second
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
+// Required Bootstrap imports
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+// Optional components
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/utilities/api";
+
 
 body,
 html {
@@ -12,194 +43,32 @@ html {
 }
 
 
-// Primary Colors
-$primary: #20CD8D;
-$primary-light-green: #02C37E;
-
-
-// Background Colors
-$body-bg: #172627;
-$content-bg: beige;
-
-
-// font colors
-$main-text: beige;
-$secondary-text-color: #02C37E;
-$tertiary-text: white;
-
-
-
-//Index main container 
-.top-container {
+.back {
+    color: beige;
+    position: relative;
+    right: 10%;
     width: auto;
-    height: 500px;
-    background-color: $body-bg;
-
-    .container-h1 {
-        text-align: center;
-        position: relative;
-        font-size: 64px;
-        width: auto;
-        top: 130px;
-        color: $secondary-text-color;
-        font-family: 'Montserrat', sans-serif;
-        font-family: 'Roboto', sans-serif;
-    }
 }
 
-.container-p {
-    position: absolute;
-    top: 30px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100px;
-    border-left: 1px solid $primary;
-
-
-    p {
-        font-size: 18.2px;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        font-family: 'Roboto', sans-serif;
-        color: $tertiary-text;
-    }
+.back-home {
+    border-radius: 20px;
+    position: relative;
+    border: 1px solid $primary;
+    left: 5%;
+    top: 25%;
+    padding: 0% 2%;
+    width: auto;
+    background-color: beige;
 }
 
-// Info Container
-.info-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat;
-    height: 100%;
+.header-nav {
+    height: 100px;
     width: 100%;
-}
-
-
-// Div styles
-
-.div-1 {
-    width: 100%;
-    padding: 10px;
-    border-radius: 25px;
-    border: 1px solid $body-bg;
-    background-color: $primary-light-green;
-    color: $main-text;
-    margin: 10px;
-
-    .div-1-h1{
-        justify-self: center;
-        width: auto;
-        text-align: center;
-    }
-
-    .div-1-para{
-        width: auto;
-        justify-content: center;
-        text-align: center;
-    }
-}
-
-.div-2 {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid $body-bg;
-    border-radius: 25px;
-    margin: 10px;
-    background-color: $primary-light-green;
-    color: $main-text;
-
-
-    .div-2-h1{
-        justify-content: center;
-        text-align: center;
-        width: auto;
-    }
-
-    .div-2-para {
-        width: auto;
-        text-align: center;
-        justify-content: center;
-
-    }
+    background-color: #172627;
+    border-bottom: 1px solid beige;
 }
 
 
 
-// Footer styles 
-.footer-contact {
-    width: 100%;
-    height: 700px;
-    background-repeat: space;
-    background-size: cover;
 
 
-    //footer  text heading 
-    .footer-h1 {
-        width: auto;
-        left: 20px;
-        font-size: 60px;
-        position: relative;
-        font-family: 'Montserrat', sans-serif;
-        font-family: 'Roboto', sans-serif;
-        display: flex;
-    }
-
-    .footer-information{
-        left: 20px;
-        width: auto;
-        position: relative;
-        top: 100px;
-        display: inline-block;
-    }
-
-
-    //Number button styles in the footer
-    .footer-num {
-        font-size: 20px;
-        position: relative;
-        border-radius: 20px;
-        padding: 10px;
-        width: auto;
-        color: $main-text;
-        background-color: $body-bg;
-    }
-
-
-
-    //Email address styles in the footer 
-    .footer-email {
-        font-size: 20px;
-        position: relative;
-        border-radius: 20px;
-        padding: 10px;
-        width: auto;
-        color: $main-text;
-        background-color: $body-bg;
-    }
-
-
-    //Address styles in the footer
-    .footer-add {
-        font-size: 20px;
-        position: relative;
-        border-radius: 20px;
-        padding: 10px;
-        width: auto;
-        color: $main-text;
-        background-color: $body-bg;
-    }
-
-
-    //Website styles in the footer
-    .footer-web {
-        font-size: 20px;
-        position: absolute;
-        border-radius: 20px;
-        padding: 10px;
-        width: auto;
-        color: $main-text;
-        background-color: $body-bg;
-    }
-
-}
