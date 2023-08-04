@@ -1,11 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>My Resume</title>
 </head>
-<body>
-    
+
+<body class="d-flex h-100 text-center text-white bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-start mb-0"><img style=" margin: left 20%; margin-right: 20px; border-radius: 20px"
+                        width="90px" height="90px" src="images/Daniel-Portfolio-pic.png" alt="">My Resume</h3>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-link" href="resume.html">Resume</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="px-4 py-5 my-5 text-center">
+            <img style="border-radius: 20px;" class="d-block mx-auto mb-4" src="images/Daniel-Portfolio-pic.png" alt=""
+                width="300" height="300">
+            <h1 class="display-5 fw-bold">Daniel Mommsen</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Highly skilled and motivated Full Stack Front-End Developer and Software Engineer
+                    with a passion for creating innovative and user-centric web applications. Equipped with a strong
+                    foundation in both front-end and back-end technologies, I am dedicated to delivering high-quality,
+                    efficient, and scalable solutions to meet business objectives and enhance user experiences.</p>
+            </div>
+            <hr>
+        </div>
+
+        <div class="container px-4 py-5" id="icon-grid">
+            <h2 class="pb-2 border-bottom">Education</h2>
+            <h2 class="pb-2"> Full Stack Front-End Developer and Software Engineer</h2>
+            <hr>
+            <h2 class="pb-2">Hyperion Dev</h2>
+            <hr>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                    <div>
+                        <h4 class="fw-bold mb-0">HTML</h4>
+                        <p>Proficient in HTML, with a solid understanding of its structure and semantic elements.
+                            Skilled in creating well-structured and accessible web pages, incorporating essential tags,
+                            attributes, and best practices. Able to implement responsive design techniques and optimize
+                            web content for improved user experiences. Continuously expanding knowledge of HTML5
+                            advancements and staying up-to-date with industry trends to deliver modern and engaging web
+                            solutions.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                        <use xlink:href="#cpu-fill"></use>
+                    </svg>
+                    <div>
+                        <h4 class="fw-bold mb-0">CSS</h4>
+                        <p>Experienced in CSS styling and layout, capable of transforming design concepts into visually
+                            appealing and responsive web interfaces. Proficient in using CSS selectors, properties, and
+                            media queries to achieve consistent presentation across various devices and screen sizes.
+                            Skilled in implementing animations, transitions, and flexbox/grid layouts to enhance user
+                            interactions and user experiences. Continuously exploring new CSS techniques and staying
+                            informed about emerging trends to create modern and dynamic websites.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                        <use xlink:href="#calendar3"></use>
+                    </svg>
+                    <div>
+                        <h4 class="fw-bold mb-0">JAVASCRIPT</h4>
+                        <p>Skilled in JavaScript programming with a focus on building interactive and dynamic web
+                            applications. Proficient in DOM manipulation, event handling, and asynchronous programming
+                            using promises and async/await. Experienced in working with various JavaScript libraries and
+                            frameworks, such as React, Vue, or Angular, to develop feature-rich and scalable front-end
+                            solutions. Familiar with AJAX and RESTful API integration to facilitate seamless data
+                            exchange between the front-end and back-end systems. Continuously enhancing JavaScript
+                            skills through ongoing learning and personal projects to deliver robust and efficient code
+                            for exceptional user experiences.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                        <use xlink:href="#home"></use>
+                    </svg>
+                    <div>
+                        <h4 class="fw-bold mb-0">KOTLIN</h4>
+                        <p>Proficient in Kotlin programming language with a focus on Android app development and backend
+                            solutions. Skilled in leveraging Kotlin's concise and expressive syntax to build clean,
+                            maintainable, and efficient code. Experienced in utilizing Kotlin's features, such as
+                            extension functions, data classes, and coroutines, to enhance productivity and create robust
+                            applications. Familiar with Android Studio and Android SDK to develop feature-rich and
+                            user-friendly Android apps. Continuously exploring Kotlin's advanced functionalities and
+                            staying updated with industry best practices to deliver cutting-edge solutions for diverse
+                            projects.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                        <use xlink:href="#speedometer2"></use>
+                    </svg>
+                    <div>
+                        <h4 class="fw-bold mb-0">JAVA</h4>
+                        <p>Skilled in Java programming with a strong foundation in object-oriented principles and design
+                            patterns. Proficient in developing desktop, web, and mobile applications using Java and
+                            related technologies. Experienced in utilizing Java frameworks like Spring and Hibernate to
+                            build scalable and maintainable backend systems. Familiar with Java's multi-threading
+                            capabilities and exception handling for robust application development. Continuously
+                            expanding Java knowledge through personal projects and keeping abreast of the latest
+                            advancements in the Java ecosystem to deliver high-quality and efficient solutions.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                        <use xlink:href="#toggles2"></use>
+                    </svg>
+                    <div>
+                        <h4 class="fw-bold mb-0">NODE</h4>
+                        <p>Proficient in Node.js development, leveraging its event-driven and non-blocking architecture
+                            to build scalable and performant web applications. Skilled in creating server-side
+                            applications using Express.js, connecting with databases like MongoDB and MySQL to handle
+                            data efficiently. Experienced in RESTful API design and implementation, enabling seamless
+                            communication between front-end and back-end systems. Familiar with npm ecosystem,
+                            integrating various modules and packages to streamline development processes. Continuously
+                            exploring Node.js capabilities and staying up-to-date with the latest frameworks and tools
+                            to deliver cutting-edge solutions for diverse projects.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                        <use xlink:href="#geo-fill"></use>
+                    </svg>
+                    <div>
+                        <h4 class="fw-bold mb-0">SQL</h4>
+                        <p>Intermediate in SQL with a moderate understanding of database design and management. moderate
+                            in writing normal queries to extract, update, and manipulate data efficiently from
+                            relational databases like MySQL, PostgreSQL, or SQL Server. Moderate in optimizing database
+                            performance through indexing and query optimization techniques. Familiar with database
+                            normalization principles to ensure data integrity and minimize redundancy. Continuously
+                            expanding SQL knowledge and staying informed about database trends and advancements to
+                            design and maintain robust database solutions for various applications.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <img class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                    <div>
+                        <h4 class="fw-bold mb-0">XML</h4>
+                        <p>Skilled in XML (eXtensible Markup Language) with a solid understanding of its syntax and
+                            structure. Proficient in creating well-formed and valid XML documents to represent data in a
+                            hierarchical format. Experienced in using XML to facilitate data exchange between different
+                            systems and platforms. Familiar with XML Schema and DTD (Document Type Definition) to define
+                            the structure and constraints of XML documents. Continuously exploring XML-related
+                            technologies and staying updated with industry standards to effectively manage and
+                            manipulate XML data for seamless integration and interoperability in various projects.</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <hr>
+        <div class="px-4 py-5 my-5 text-center">
+            <img class="d-block mx-auto mb-5" src="images/images.jpeg" alt="" width="400" height="200">
+            <h1 class="display-5 fw-bold">Professional Experience</h1>
+            <div class="col-lg-6 mx-auto">
+                <hr>
+                <p class="lead mb-4">1. Collaborated with cross-functional teams to develop and maintain responsive web
+                    applications with a focus on user experience and performance optimization.
+                </p>
+                <p class="lead mb-4">2. Implemented new features and functionalities using React.js, Angular, and CSS3
+                    to enhance the user interface and user interactions.</p>
+                <p class="lead mb-4">3. Conducted code reviews and provided constructive feedback to ensure code quality
+                    and maintainable solutions.</p>
+                <p class="lead mb-4">4. Moderatly participated in agile ceremonies, such as daily stand-ups and sprint
+                    planning, to achieve project milestones efficiently.</p>
+                <hr>
+            </div>
+        </div>
+        <div class="px-4 py-5 my-5 text-center">
+            <img style="border-radius: 20px" class="d-block mx-auto mb-4" src="images/project.png" alt="" width="400"
+                height="300">
+            <h1 class="display-5 fw-bold">Projects</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">JET SKI AND MORE</p>
+                <hr>
+                <P class="lead mb-4">1. At Jet Ski and More, users can easily book exhilarating jet ski adventures at
+                    various scenic locations.</P>
+                <P class="lead mb-4">2. The website provides a user-friendly interface that allows visitors to explore
+                    different jet ski rental options, check availability, and make secure online bookings.</P>
+                <P class="lead mb-4">3. With a strong focus on safety and family-friendly experiences, Jet Ski and More
+                    ensures that users can enjoy the excitement of jet skiing while adhering to the highest standards of
+                    security and professionalism.</P>
+                <P class="lead mb-4">Jet Ski and More aims to provide thrilling and unforgettable experiences for
+                    adventure seekers while simultaneously supporting and promoting the creative endeavors of aspiring
+                    artisans. Whether it's the thrill of riding the waves on a jet ski or discovering unique and
+                    artisanal products, Jet Ski and More offers an immersive and enjoyable online platform for users to
+                    explore and indulge in their passions.</P>
+                <hr>
+            </div>
+        </div>
+        <div class="px-4 py-5 my-5 text-center">
+            <img class="d-block mx-auto mb-4" src="images/cv.png" alt="" width="72" height="57">
+            <h1 class="display-5 fw-bold">References</h1>
+            <h1 class="display-5 fw-bold">Available upon request.</h1>
+            <div class="col-lg-6 mx-auto">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="javascript/script.js"></script>
 </body>
+
 </html>

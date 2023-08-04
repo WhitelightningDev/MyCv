@@ -8,17 +8,6 @@ document.querySelector('.intro-contact').addEventListener('click', function (eve
 });
 
 
-// Function to open Google Maps with the address
-function openGoogleMaps() {
-    // Replace "123 Example Street, Cityville, Country" with the desired address
-    const address = "44 Boundary Road, Mountainside, Gordon's Bay, Cape Town";
-
-    // Create the Google Maps URL
-    const googleMapsUrl = `https://www.google.com/maps?q=${encodeURIComponent(address)}`;
-
-    // Open Google Maps in a new tab
-    window.open(googleMapsUrl, "_blank");
-}
 
 
 // Function to open Gmail
