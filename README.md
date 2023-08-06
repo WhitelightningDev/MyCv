@@ -9,7 +9,6 @@ Welcome to "My CV" project! This is a simple repository containing my personal C
 - Structured and well-formatted CV information.
 - Clear and concise sections for easy readability.
 - Links to my professional profiles and social media.
-- Downloadable PDF version of the CV.
 
 ## Usage
 
